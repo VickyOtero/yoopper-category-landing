@@ -1,0 +1,805 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+  <head>
+		<meta charset="utf-8">
+		<title>shopping-bag</title>
+
+		<link rel="icon" type="image/vnd.microsoft.icon" href="../yoopper/img/favicon.ico?1456996154">
+		<link rel="shortcut icon" type="image/x-icon" href="../yoopper/img/favicon.ico?1456996154">
+					<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/global-home_v2.css" id="global-style" type="text/css" media="all">
+
+					<link rel="stylesheet" href="CSS/shopping-bag.css" type="text/css" media="all">	
+									
+
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/autoload/animate.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/js/jquery/plugins/fancybox/jquery.fancybox.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/modules/blockcart/blockcart.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/js/jquery/plugins/bxslider/jquery.bxslider.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/modules/blockcategories/blockcategories.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/modules/blockfacebook/css/blockfacebook.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/modules/blocknewsletter/blocknewsletter.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/modules/blocksearch/blocksearch.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/js/jquery/plugins/autocomplete/jquery.autocomplete.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/modules/blocktags/blocktags.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/modules/blockuserinfo/blockuserinfo.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/modules/blockwishlist/blockwishlist.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/modules/productcomments/productcomments.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/modules/ptsmaplocator/views/css/styles.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/modules/ptsproductcountdown/views/css/ptsproductcountdown.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/modules/ptspagebuilder/assets/pagebuilder.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/modules/ptspagebuilder/assets/util.carousel.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/modules/ptssliderlayer/css/typo.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/themes/pf_newfashionstore/css/modules/ptssliderlayer/css/style.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/modules/blockloginregister/css/loginregister.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/modules/jmarketplace/views/css/font-awesome.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/modules/jmarketplace/views/css/jmarketplace.css" type="text/css" media="all">
+							<link rel="stylesheet" href="../yoopper/modules/ygitrenders/views/css/trenders.css" type="text/css" media="all">
+				
+
+		<script type="text/javascript" src="../yoopper/js/jquery/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="../yoopper/js/jquery/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="../yoopper/js/jquery/plugins/jquery.easing.js"></script>
+		<script type="text/javascript" src="../yoopper/js/tools.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/global.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/autoload/10-bootstrap.min.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/autoload/15-jquery.total-storage.min.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/autoload/15-jquery.uniform-modified.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/autoload/blockfacebook.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/autoload/vegas.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/autoload/wow.min.js"></script>
+		<script type="text/javascript" src="../yoopper/js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/products-comparison.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/modules/blockcart/ajax-cart.js"></script>
+		<script type="text/javascript" src="../yoopper/js/jquery/plugins/jquery.scrollTo.js"></script>
+		<script type="text/javascript" src="../yoopper/js/jquery/plugins/jquery.serialScroll.js"></script>
+		<script type="text/javascript" src="../yoopper/js/jquery/plugins/bxslider/jquery.bxslider.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/tools/treeManagement.js"></script>
+		<script type="text/javascript" src="../../yoopper/modules/blockfacebook/blockfacebook.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/modules/blocknewsletter/blocknewsletter.js"></script>
+		<script type="text/javascript" src="../yoopper/js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/modules/blocksearch/blocksearch.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/modules/blockwishlist/js/ajax-wishlist.js"></script>
+		<script type="text/javascript" src="../yoopper/modules/ptsproductcountdown/views/js/countdown.js"></script>
+		<script type="text/javascript" src="../yoopper/modules/ptspagebuilder/assets/countdown.js"></script>
+		<script type="text/javascript" src="../yoopper/modules/ptspagebuilder/assets/jquery.utilcarousel.min.js"></script>
+		<script type="text/javascript" src="../yoopper/modules/ptspagebuilder/assets/admin/image_gallery.js"></script>
+		<script type="text/javascript" src="../yoopper/modules/ptssliderlayer/js/raphael-min.js"></script>
+		<script type="text/javascript" src="../yoopper/modules/ptssliderlayer/js/iview.js"></script>
+		<script type="text/javascript" src="../yoopper/modules/blockloginregister/js/blockloginregister.js"></script>
+		<script type="text/javascript" src="../yoopper/themes/pf_newfashionstore/js/index.js"></script>
+			
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;language=en"></script>
+            <script type="text/javascript" src="../yoopper/modules/ptsmaplocator/views/js/gmap3.min.js"></script>
+            <script type="text/javascript" src="../yoopper/modules/ptsmaplocator/views/js/gmap3.infobox.js"></script>
+        	
+		<script type="text/javascript">new WOW().init();</script>	
+		<link href="http://fonts.googleapis.com/css?family=Hind:400,300,500,600,700" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet" type="text/css">
+		<!--[if IE 8]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	
+</head>
+
+<body>
+<header id="header" class="header2">
+	<div id="topbar" class="topbar">
+		<div class="container" style="float:right;cursor:default;border:none;padding:0px;">
+			<div class="topbar-inner">
+				<!-- Block login and register module -->
+<div id="login_panel">
+	<a class="login-register-inline-form" href="#login-box-content" id="login-box" title="Entrar a tu cuenta de cliente">
+        <i class="icon icon-lock"></i> <span>Iniciar sesión</span>
+    </a>
+    <a class="login-register-inline-form" href="#register-box-content" id="register-box" title="Crear una cuenta">
+        <i class="icon icon-user"></i> <span>Crear una cuenta</span>
+    </a>
+</div>
+<div id="login-box-content">
+	<div id="login-box-loading" class="box-loading"><i class="icon icon-spinner icon-pulse"></i></div>
+    <p class="login-box-title">Iniciar sesión <span title="Cerrar" class="login-box-close"></span></p>
+    <div id="status-login" class="alert-status alert alert-danger"></div>
+    <form id="loginform" method="post" onsubmit="return loginCheck()" action="http://192.168.1.95/yoopper/es/inicio-sesion">
+        <input type="hidden" name="action_login" value="login">
+                <div class="form-group">
+            <label for="email_ajax"> Correo electrónico</label>
+            <div class="input-group">
+                <div class="input-group-addon"><i class="icon icon-envelope"></i></div>
+                <input type="email" id="email_ajax" name="email_ajax" value="" class="form-control">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="passwd_ajax">Contraseña</label>
+            <div class="input-group">
+                <div class="input-group-addon"><i class="icon icon-lock"></i></div>
+                <input type="password" id="passwd_ajax" name="passwd_ajax" value="" class="form-control">
+            </div>
+        </div>
+        <p class="lost_password form-group">
+            <a href="http://192.168.1.95/yoopper/es/recuperacion-contraseña" rel="nofollow" title="Recuperar la contraseña">¿Olvidó su contraseña?</a>
+        </p>
+        <p>
+            <button class="button btn btn-default btn-block button-medium" name="SubmitLogin_ajax" id="SubmitLogin_ajax" type="submit">
+                <span>
+                    <i class="icon-lock left"></i>
+                    Iniciar sesión
+                </span>
+            </button>
+        </p>
+    </form>
+</div>
+<div id="register-box-content">
+	<div id="register-box-loading" class="box-loading"><i class="icon icon-spinner icon-pulse"></i></div>
+    <p class="login-box-title">Crear una cuenta <span title="Cerrar" class="login-box-close"></span></p>
+    <div id="status-register" class="alert-status alert alert-danger"></div>
+    <form id="registercheck" method="post" onsubmit="return registerCheck()" action="http://192.168.1.95/yoopper/es/inicio-sesion">
+		<p>Escriba su correo electrónico para crear su cuenta.</p>
+        <input type="hidden" class="hidden" name="create_account" value="1">
+        <input type="hidden" name="action_login" value="create_account">
+        <input type="hidden" class="hidden" name="SubmitCreate" value="Create your account">
+        <div class="form-group">
+            <label for="email_create_ajax"> Correo electrónico</label>
+            <div class="input-group">
+                <div class="input-group-addon"><i class="icon icon-envelope"></i></div>
+                <input type="email" id="email_create_ajax" name="email_create" value="" class="form-control">
+            </div>
+        </div>
+	    <p>
+            <button class="button btn btn-default btn-block button-medium exclusive" name="btnRegister_ajax" id="btnRegister_ajax" type="submit">
+                <span>
+                    <i class="icon-user left"></i>
+                    Crear una cuenta
+                </span>
+            </button>
+        </p>
+    </form>
+</div>
+<!-- /Block login and register module -->
+<!-- Block languages module -->
+
+<div id="languages-block-top" class="pull-left hidden-xs">
+	<ul class="list-inline">
+		<li class="dropdown">
+			<a data-toggle="dropdown" class="dropdown-toggle" style="cursor:pointer;">
+				<span class="icon-caret-down"></span>
+			</a>
+			<ul id="first-languages" class="dropdown-menu pull-right">
+									<li class="selected">
+												<span><img src="http://192.168.1.95/yoopper/img/l/1.jpg" alt="es" width="16" height="11" data-pagespeed-url-hash="672441167" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><span>Español</span></span>
+										</li>
+									<li>
+																								<a href="http://192.168.1.95/yoopper/ca/" title="Català (Catalan)">
+																		<span><img src="http://192.168.1.95/yoopper/img/l/2.jpg" alt="ca" width="16" height="11" data-pagespeed-url-hash="966941088" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><span>Català</span></span>
+											</a>
+										</li>
+							</ul>
+		</li>
+	</ul>	
+</div>		
+<!-- /Block languages module -->
+<!-- Block currencies module -->
+<div id="currencies-block-top" class="pull-left hidden-xs">
+	<ul class="list-inline">
+		<li class="dropdown">
+			<a data-toggle="dropdown" class="dropdown-toggle" style="cursor:pointer;"><!--<span class="title">Moneda: </span>-->
+																													<an>
+																<span class="icon-caret-down"></span>
+			
+			</a>
+			<div class="dropdown-menu pull-right">				
+				<form id="setCurrency" action="/yoopper/es/" method="post">
+			 	
+					<input type="hidden" name="id_currency" id="id_currency" value="">
+					<input type="hidden" name="SubmitCurrency" value="">
+		 
+					<ul id="first-currencies" class="currencies_ul toogle_content">
+																															<li>
+							<a href="javascript:setCurrency(2);" rel="nofollow" title="Dolar (USD)">
+								Dolar (USD)
+							</a>
+						</li>																														<li class="selected">
+							<a href="javascript:setCurrency(1);" rel="nofollow" title="Euro (EUR)">
+								Euro (EUR)
+							</a>
+						</li>
+										</ul>
+				</form>
+			</div>
+		</li>
+	</ul>	
+</div>	
+<!-- /Block currencies module -->
+			</div>
+		</div>
+	</div>
+	<div id="header-main" class="header">
+		<div class="container">
+			<div class="header-inner">
+				<div id="header_logo">
+					<div id="logo-theme" class="logo-store">
+													<a href="http://192.168.1.95/yoopper/" title="Yoopper">
+									<img class="logo img-responsive" src="http://192.168.1.95/yoopper/img/yoopper-logo-1456498290.jpg" alt="Yoopper" width="260" height="70" data-pagespeed-url-hash="3399836858" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+							</a>
+											</div>
+				</div>
+			    <div id="pts-mainnav" class="pts-mainnav">
+					<div class="main-menu">
+				        <nav id="cavas_menu" class="sf-contener pts-megamenu">
+    <div class="navbar" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <!-- <span class="sr-only">Navegación Toggle</span> -->
+                <span class="icon-bars"></span>
+            </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="pts-top-menu" class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav megamenu"><li class=" aligned-left parent dropdown ">
+                    <a href="http://192.168.1.95/yoopper/es/" class="dropdown-toggle" data-toggle="dropdown" target="_self"><span class="menu-title">Home</span><b class="caret"></b></a><div class="dropdown-menu" style="width:850px"><div class="dropdown-menu-inner"><div class="row"><div class="mega-col col-sm-3"> <div class="mega-col-inner"><div class="pts-widget" id="wid-1431493291-501567428"><div class="widget-links">
+		<div class="widget-heading">
+		Home Options
+	</div>
+		<div class="widget-inner block_content">	
+		<div class="panel-group">
+			<ul class="nav-links">
+			    
+			  <li><a href="?themeskin=default&amp;headers=default&amp;themeskinactived=1">Home1 (Fullscreen)</a></li>
+			    
+			  <li><a href="?themeskin=home_v2&amp;headers=header2&amp;themeskinactived=1">Home2</a></li>
+			    
+			  <li><a href="?themeskin=home_v3&amp;headers=header2&amp;themeskinactived=1">Home3(Collections)</a></li>
+			    
+			  <li><a href="?themeskin=home_v4&amp;headers=header4&amp;themeskinactived=1">Home4(Classic Boxedlayout)</a></li>
+			    
+			  <li><a href="?themeskin=home_v5&amp;headers=header5&amp;themeskinactived=1">Home5(Deals Verticalslider)</a></li>
+			    
+			  <li><a href="?themeskin=home_v6&amp;headers=header6&amp;themeskinactived=1">Home6(Catalog)</a></li>
+			    
+			  <li><a href="?themeskin=home_v7&amp;headers=header7&amp;themeskinactived=1">Home7</a></li>
+			    
+			  <li><a href="?themeskin=home_v8&amp;headers=header7&amp;themeskinactived=1">Home8</a></li>
+			  			</ul>
+	</div>
+</div>
+</div>
+
+
+</div></div></div><div class="mega-col col-sm-3"> <div class="mega-col-inner"><div class="pts-widget" id="wid-1431500466-2082002549"><div class="widget-links">
+		<div class="widget-heading">
+		Headers Options
+	</div>
+		<div class="widget-inner block_content">	
+		<div class="panel-group">
+			<ul class="nav-links">
+			    
+			  <li><a href="?headers=default&amp;headerctived=1">Default</a></li>
+			    
+			  <li><a href="?headers=header2&amp;headerctived=1">Header2</a></li>
+			    
+			  <li><a href="?headers=header3&amp;headerctived=1">Header3</a></li>
+			    
+			  <li><a href="?headers=header4&amp;headerctived=1">Header4</a></li>
+			    
+			  <li><a href="?headers=header5&amp;headerctived=1">Header5</a></li>
+			    
+			  <li><a href="?headers=header6&amp;headerctived=1">Header</a></li>
+			    
+			  <li><a href="?headers=header7&amp;headerctived=1">Header7</a></li>
+			  			</ul>
+	</div>
+</div>
+</div>
+
+
+</div></div></div><div class="mega-col col-sm-3"> <div class="mega-col-inner"><div class="pts-widget" id="wid-1434098534-978672761"><div class="widget-links">
+		<div class="widget-heading">
+		Products Style
+	</div>
+		<div class="widget-inner block_content">	
+		<div class="panel-group">
+			<ul class="nav-links">
+			    
+			  <li><a href="?productsstyleactived=1&amp;productsstyle=style1">Products Style 1</a></li>
+			    
+			  <li><a href="?productsstyleactived=1&amp;productsstyle=style2">Products Style 2</a></li>
+			    
+			  <li><a href="?productsstyleactived=1&amp;productsstyle=style3">Products Style 3</a></li>
+			    
+			  <li><a href="?productsstyleactived=1&amp;productsstyle=style4">Products Style 4</a></li>
+			    
+			  <li><a href="?productsstyleactived=1&amp;productsstyle=style5">Products Style 5</a></li>
+			    
+			  <li><a href="?productsstyleactived=1&amp;productsstyle=style6">Products Style 6</a></li>
+			  			</ul>
+	</div>
+</div>
+</div>
+
+
+</div></div></div><div class="mega-col col-sm-3"> <div class="mega-col-inner"><div class="pts-widget" id="wid-1434098983-1700442890"><div class="widget-links">
+		<div class="widget-heading">
+		Product Detail
+	</div>
+		<div class="widget-inner block_content">	
+		<div class="panel-group">
+			<ul class="nav-links">
+			    
+			  <li><a href="?id_product=28&amp;controller=product&amp;id_lang=1&amp;productdetailactived=1&amp;productdetail=default">Default</a></li>
+			    
+			  <li><a href="?id_product=28&amp;controller=product&amp;id_lang=1&amp;productdetailactived=1&amp;productdetail=tab-h">Tabs - Thumbs Horizontal</a></li>
+			    
+			  <li><a href="?id_product=28&amp;controller=product&amp;id_lang=1&amp;productdetailactived=1&amp;productdetail=tab-v">Tabs - Thumbs Vertical</a></li>
+			    
+			  <li><a href="?id_product=28&amp;controller=product&amp;id_lang=1&amp;productdetailactived=1&amp;productdetail=accordion-h">Accordion - Thumbs Horizontal</a></li>
+			    
+			  <li><a href="?id_product=28&amp;controller=product&amp;id_lang=1&amp;productdetailactived=1&amp;productdetail=accordion-v">Accordion - Thumbs Vertical</a></li>
+			  			</ul>
+	</div>
+</div>
+</div>
+
+
+</div></div></div></div></div></div></li><li class="parent dropdown  aligned-left">
+                    <a class="dropdown-toggle has-subhtml" data-toggle="dropdown" href="http://192.168.1.95/yoopper/es/3-mujer" target="_self"><span class="menu-title">Mujer</span><b class="caret"></b></a><div class="dropdown-menu level1"><div class="dropdown-menu-inner"><div class="row"><div class="mega-col col-sm-12" data-type="menu"><div class="mega-col-inner"><ul><li class=" "><a href="http://192.168.1.95/yoopper/es/4-tops"><span class="menu-title">Tops</span></a></li><li class=" "><a href="http://192.168.1.95/yoopper/es/8-vestidos"><span class="menu-title">Vestidos</span></a></li></ul></div></div></div></div></div></li></ul>
+        </div>
+    </div>  
+</nav>
+<script type="text/javascript">if($(window).width()>=992){$('#pts-top-menu a.dropdown-toggle').click(function(){var redirect_url=$(this).attr('href');window.location=redirect_url;});}</script>
+
+				    </div>
+			    </div>
+
+				<div class="header-right">
+					<div class="wishlist pull-left">
+						<a class="links" href="http://192.168.1.95/yoopper/es/module/blockwishlist/mywishlist" title="My wishlists"><i class="icon-heart-o"></i><!-- Wish List --></a>
+					</div>
+					<!-- Block search module TOP -->
+
+<div class="block-search pull-left">
+	<a class="search-focus dropdown-toggle links" data-toggle="modal" data-target=".bs-example-modal-lg"> 
+			<!-- <span class="text-label title">BÚSQUEDA</span> -->
+			<i class="icon-search"></i>			
+	</a>
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	    	<div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+	          <h4 class="modal-title" id="gridSystemModalLabel">Search Products</h4>
+	        </div>
+	        <div class="modal-body">
+		       	<form id="searchbox" method="get" action="//192.168.1.95/yoopper/es/buscar">
+					<div class="input-group">
+						<input type="hidden" name="controller" value="search">
+						<input type="hidden" name="orderby" value="position">
+						<input type="hidden" name="orderway" value="desc">
+						<input id="search_query_top" class="search-control search_query form-control ac_input" type="text" placeholder="Ingresa la palabra clave aquí ..." name="search_query" value="" autocomplete="off">
+						<div class="input-group-btn">
+							<input type="submit" name="submit_search" value="Búsqueda" class="btn btn-default">
+						</div>
+					</div>	
+				</form>
+	    	</div>
+	    </div>
+	  </div>
+	</div>
+
+</div>
+<!-- /Block search module TOP --><!-- MODULE Block cart -->
+<div class="header-cart ">
+
+	<div id="cart" class="shopping_cart">
+		<div class="heading">
+			<div class="mini-cart">	
+
+				<a class="links" href="http://192.168.1.95/yoopper/es/pedido" title="Ver mi carrito de la compra" rel="nofollow">
+				<span class="title-cart"><i class="icon-shopping-cart"></i><!-- MI MOCHILA  --></span>
+					<span class="ajax_cart_quantity unvisible">0</span>
+					<span style="display:none" class="ajax_cart_product_txt unvisible">artículo (s)</span>
+					<span style="display:none" class="ajax_cart_product_txt_s unvisible">artículo (s)</span>	
+					<span style="display:none" class="ajax_cart_total unvisible">
+											</span>			
+			<span class="ajax_cart_no_product">(0)</span>
+					
+
+				<!--<i class="icon-angle-down"></i>-->
+				</a>
+			</div>
+		</div>
+
+					<div class="cart_block block exclusive">
+				<div class="block_content">
+					<!-- block list of products -->
+					<div class="cart_block_list">
+												<p class="cart_block_no_products">
+							No hay productos
+						</p>
+																		<div class="cart-prices">
+							<div class="cart-prices-line first-line">
+								<span class="price cart_block_shipping_cost ajax_cart_shipping_cost unvisible">
+																			 Estar determinado																	</span>
+								<span class="unvisible">
+									Envío
+								</span>
+							</div>
+																					<div class="cart-prices-line last-line">
+								<span class="price cart_block_total ajax_block_cart_total">0,00 €</span>
+								<span>Total</span>
+							</div>
+													</div>
+						<p class="cart-buttons clearfix">
+							<a id="button_order_cart" class="btn btn-default pull-right" href="http://192.168.1.95/yoopper/es/pedido" title="Revisa" rel="nofollow">
+								<span>
+									Revisa<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div><!-- .cart_block -->
+			</div>
+
+	<div id="layer_cart">
+		<div class="clearfix">
+			<div class="layer_cart_product col-xs-12 col-md-6">
+				<span class="cross" title="Cerrar ventana"></span>
+				<span class="title">
+					<i class="icon-ok"></i>Producto añadido correctamente a su carrito de compras
+				</span>
+				<div class="product-image-container layer_cart_img">
+				</div>
+				<div class="layer_cart_product_info">
+					<span id="layer_cart_product_title" class="product-name"></span>
+					<span id="layer_cart_product_attributes"></span>
+					<div>
+						<strong class="dark">Cantidad</strong>
+						<span id="layer_cart_product_quantity"></span>
+					</div>
+					<div>
+						<strong class="dark">Total</strong>
+						<span id="layer_cart_product_price"></span>
+					</div>
+				</div>
+			</div>
+			<div class="layer_cart_cart col-xs-12 col-md-6">
+				<span class="title">
+					<!-- Plural Case [both cases are needed because page may be updated in Javascript] -->
+					<span class="ajax_cart_product_txt_s  unvisible">
+						Hay <span class="ajax_cart_quantity">0</span> artículos en su carrito.
+					</span>
+					<!-- Singular Case [both cases are needed because page may be updated in Javascript] -->
+					<span class="ajax_cart_product_txt ">
+						Hay 1 artículo en su cesta.
+					</span>
+				</span>
+	
+				<div class="layer_cart_row">
+					<strong class="dark">
+						Total productos
+											</strong>
+					<span class="ajax_block_products_total">
+											</span>
+				</div>
+	
+								<div class="layer_cart_row">
+					<strong class="dark unvisible">
+						Transporte Total&nbsp;					</strong>
+					<span class="ajax_cart_shipping_cost unvisible">
+													 Estar determinado											</span>
+				</div>
+								<div class="layer_cart_row">	
+					<strong class="dark">
+						Total
+											</strong>
+					<span class="ajax_block_cart_total">
+											</span>
+				</div>
+				<div class="button-container">	
+					<span class="continue btn btn-default button exclusive-medium" title="Seguir comprando">
+						<span>
+							<i class="icon-chevron-left left"></i>Seguir comprando
+						</span>
+					</span>
+					<a class="btn btn-default btn-warning button pull-right" href="http://192.168.1.95/yoopper/es/pedido" title="Pasar por la caja" rel="nofollow">
+						<span>
+							Pasar por la caja<i class="icon-chevron-right right"></i>
+						</span>
+					</a>	
+				</div>
+			</div>
+		</div>
+		<div class="crossseling"></div>
+	</div> <!-- #layer_cart -->
+	<div class="layer_cart_overlay"></div>
+</div>
+
+
+<!-- /MODULE Block cart -->				</div>
+			</div>
+		</div>
+	</div>
+
+
+</header>
+
+<!--MODULO SHOPPING BAG-->
+
+<div id="columns" class="pagebuilder-content">
+	<div id="ptspagebuilder1461660715" class="pagebuilder clearfix">
+		<div class="pts-container fadeIn wow  animated" style="visibility: visible; animation-name: fadeIn;">
+			<div class="pts-inner">
+				<div class="row row-level-1">
+					<div class="row-inner clearfix">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="col-inner ">
+
+<!--MODULO HTML LIBRE-->	
+	<section id="shopping-bag">
+		<div class="woman">
+			<span class="ima">
+				<img src="i/chica-yoopper.png" alt="Chica Yoopper de compras">
+			</span>
+		</div>
+		<div class="main_bag">
+			<div >
+				<article class="cat_bag animal" >
+					
+						<div class="mainBox">
+							<!--IMG-->
+							<div class="imgBox">
+								<span class="ima">
+									<img src="i/BOLSA-1.png" itemprop="image" alt="" title="">
+								</span>
+								<a href="/categoria" title="">
+									<span>
+									</span>
+								</a>
+							</div>
+							<!--END-->
+
+							<!--Title-->
+							<div class="txtBox">
+								
+								<h2>
+									<a href="" title="">
+										<span class="maintitle">Animales</span>
+									</a>
+								</h2>
+								<!--Title END-->
+							</div>
+						</div>
+					
+				</article>
+				<article class="cat_bag tecno_" >
+					
+						<div class="mainBox">
+							<!--IMG-->
+							<div class="imgBox">
+								<span class="ima">
+									<img src="i/BOLSA-2.png" itemprop="image" alt="" title="">
+								</span>
+								<a href="/categoria" title="">
+									<span>
+									</span>
+								</a>
+							</div>
+							<!--END-->
+
+							<!--Title-->
+							<div class="txtBox">
+								
+								<h2>
+									<a href="" title="">
+										<span class="maintitle">Tecnología</span>
+									</a>
+								</h2>
+								<!--Title END-->
+							</div>
+						</div>
+					
+				</article>
+				<article class="cat_bag travel" >
+					
+						<div class="mainBox">
+							<!--IMG-->
+							<div class="imgBox">
+								<span class="ima">
+									<img src="i/BOLSA-3.png" itemprop="image" alt="" title="">
+								</span>
+								<a href="/categoria" title="">
+									<span>
+									</span>
+								</a>
+							</div>
+							<!--END-->
+
+							<!--Title-->
+							<div class="txtBox">
+								
+								<h2>
+									<a href="" title="">
+										<span class="maintitle">Viajes</span>
+									</a>
+								</h2>
+								<!--Title END-->
+							</div>
+						</div>
+					
+				</article>
+				<article class="cat_bag ocioso" >
+					
+						<div class="mainBox">
+							<!--IMG-->
+							<div class="imgBox">
+								<span class="ima">
+									<img src="i/BOLSA-4.png" itemprop="image" alt="" title="">
+								</span>
+								<a href="/categoria" title="">
+									<span>
+									</span>
+								</a>
+							</div>
+							<!--END-->
+
+							<!--Title-->
+							<div class="txtBox">
+								
+								<h2>
+									<a href="" title="">
+										<span class="maintitle">Ocio</span>
+									</a>
+								</h2>
+								<!--Title END-->
+							</div>
+						</div>
+					
+				</article>
+				<article class="cat_bag sport_" >
+					
+						<div class="mainBox">
+							<!--IMG-->
+							<div class="imgBox">
+								<span class="ima">
+									<img src="i/BOLSA-5.png" itemprop="image" alt="" title="">
+								</span>
+								<a href="/categoria" title="">
+									<span>
+									</span>
+								</a>
+							</div>
+							<!--END-->
+
+							<!--Title-->
+							<div class="txtBox">
+								
+								<h2>
+									<a href="" title="">
+										<span class="maintitle">Deporte</span>
+									</a>
+								</h2>
+								<!--Title END-->
+							</div>
+						</div>
+					
+				</article>
+				<article class="cat_bag fashio" >
+					
+						<div class="mainBox">
+							<!--IMG-->
+							<div class="imgBox">
+								<span class="ima">
+									<img src="i/BOLSA-6.png" itemprop="image" alt="" title="">
+								</span>
+								<a href="/categoria" title="">
+									<span>
+									</span>
+								</a>
+							</div>
+							<!--END-->
+
+							<!--Title-->
+							<div class="txtBox">
+								
+								<h2>
+									<a href="" title="">
+										<span class="maintitle">Moda</span>
+									</a>
+								</h2>
+								<!--Title END-->
+							</div>
+						</div>
+					
+				</article>
+				<article class="cat_bag garden" >
+					
+						<div class="mainBox">
+							<!--IMG-->
+							<div class="imgBox">
+								<span class="ima">
+									<img src="i/BOLSA-7.png" itemprop="image" alt="" title="">
+								</span>
+								<a href="/categoria" title="">
+									<span>
+									</span>
+								</a>
+							</div>
+							<!--END-->
+
+							<!--Title-->
+							<div class="txtBox">
+								
+								<h2>
+									<a href="" title="">
+										<span class="maintitle">Jardinería</span>
+									</a>
+								</h2>
+								<!--Title END-->
+							</div>
+						</div>
+					
+				</article>
+				<article class="cat_bag compl_" >
+						<div class="mainBox">
+							<!--IMG-->
+							<div class="imgBox">
+								<span class="ima">
+									<img src="i/BOLSA-8.png" itemprop="image" alt="" title="">
+								</span>
+								<a href="/categoria" title="">
+									<span></span>
+								</a>
+							</div>
+							<!--END-->
+							
+							<div class="txtBox">
+							<!--Title-->
+								<h2>
+									<span class="maintitle">Complementos</span>
+								</h2>
+							<!--Title END-->		
+							</div>
+						</div>
+					
+				</article>
+			</div>	
+		</div>
+		<div class="bckg_title">
+			<img src="i/complementos.png" alt"complementos yoopper"/>
+			<img src="i/moda.png" alt"moda yoopper"/>
+			<img src="i/ocio.png" alt"moda yoopper"/>
+			<img src="i/animales.png" alt"animales yoopper"/>
+			<img src="i/comida.png" alt"comida yoopper"/>
+			<img src="i/hogar.png" alt""/>
+			<img src="i/children.png" alt""/>
+			<img src="i/viajes.png" alt""/>
+			<img src="i/tecnology.png" alt""/>
+			<img src="i/belleza.png" alt""/>
+			<img src="i/deporte.png" alt""/>
+			<img src="i/garden.png" alt""/>
+		</div>
+	</section>
+
+
+<!--END MODULO HTML LIBRE-->									
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<!--END MODULO HTML LIBRE-->
+<div class="provisional"></div>
+
+</body>
+</html>
+

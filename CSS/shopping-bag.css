@@ -1,0 +1,63 @@
+#shopping-bag{width: 100%;position: relative;overflow: hidden;}
+#shopping-bag .woman{width: 25%;}
+#shopping-bag .main_bag{width: 75%;position: absolute;top: auto;bottom: -1em;z-index: 1;}
+
+#shopping-bag > div{display: inline-block;float: left;}
+#shopping-bag .main_bag > div{float: right;text-align: right;}
+
+/*PAPER BAG
+.cat_bag{width:15%;position: absolute;top: auto;bottom:0;left:auto;right:0;}
+.cat_bag.animal{bottom:6em}
+.cat_bag.tecno_{right: 8em;bottom:2em}
+.cat_bag.travel{right: 18em;bottom:1em}
+.cat_bag.ocioso{right: 30em;}
+.cat_bag.sport_{right: 41em;}
+.cat_bag.fashio{right: 52em;}
+.cat_bag.garden{right: 64em;}
+.cat_bag.compl_{right: 76em;}*/
+
+/*PAPER BAG*/
+.cat_bag{width:10em;position: absolute;top: auto;bottom:0;left:auto;right:0;}
+.cat_bag.animal{bottom:6em}
+.cat_bag.tecno_{right: 4em;bottom:2em;}
+.cat_bag.travel{right: 11em;bottom: 4em;}
+.cat_bag.ocioso{right: 8em;bottom: -33px;}
+.cat_bag.sport_{right: 16em;}
+.cat_bag.fashio{right: 27em;bottom: 62px;}
+.cat_bag.garden{right: 24em;}
+.cat_bag.compl_{right: 32em;}
+/*img*/
+
+.cat_bag .ima img, .cat_bag a{width: 100%;}
+.cat_bag a{display: block;position: absolute;top: 0;left: 0;cursor: pointer;}
+.cat_bag .mainBox, .cat_bag .imgBox, .cat_bag .ima img, .cat_bag a{height: 100%;}
+/*title*/
+.cat_bag .mainBox{position: relative;}
+.cat_bag h2{position: absolute;top:0;left: 0;opacity: 0;}
+.cat_bag:hover .txtBox h2{top:-5em;opacity: 1;}
+.cat_bag .txtBox .maintitle{color:#3399cc;}
+
+/*background*/
+.bckg_title img{position:absolute;bottom:100%;left:25%;height:10%;width:auto;opacity: 0.5;
+	animation: tomber 20s ease-in infinite;}
+  
+@keyframes tomber {
+  to{transform:translatey(1100%);}
+}
+.bckg_title img:first-child{left: 25%;animation-delay:0s;}/*complementos*/
+.bckg_title img:nth-child(2){left: 54%;animation-delay: 3s;}/*moda*/
+.bckg_title img:nth-child(3){left: 68%;animation-delay: 1.5s;}/**ocio*/
+.bckg_title img:nth-child(4){left: 82%;animation-delay: 4.5s;}/*animales*/
+.bckg_title img:nth-child(5){left: 29%;animation-delay: 5s;}/*comida*/
+.bckg_title img:nth-child(6){left: 48%;animation-delay: 7.5s;}/*hogar*/
+.bckg_title img:nth-child(7){left: 64%;animation-delay: 6s;}/*children*/
+.bckg_title img:nth-child(8){left:86%;animation-delay: 8s;}/*viajes*/
+.bckg_title img:nth-child(9){left:30%;animation-delay: 12.5s;}/*tecnology*/
+.bckg_title img:nth-child(10){left: 54%;animation-delay:10s;}/*belleza*/
+.bckg_title img:nth-child(11){left: 68%;animation-delay: 16s;}/*deporte*/
+.bckg_title img:last-child{left: 85%;animation-delay: 14s;}/*garden*/
+
+
+/*PROVISIONAL*/
+.provisional{background: #3399cc;width: 100%;height: 15em;}
+
